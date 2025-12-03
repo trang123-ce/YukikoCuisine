@@ -1,0 +1,10 @@
+/* Ẩn nút prev/next của PrimeNG Carousel (dùng selector mạnh hơn) */
+:host ::ng-deep .p-carousel-prev,
+:host ::ng-deep .p-carousel-next {
+  display: none !important;
+}
+
+/* Ẩn luôn nút chỉ số (dot) nếu muốn */
+:host ::ng-deep .p-carousel-indicators {
+  display: none !important;
+}

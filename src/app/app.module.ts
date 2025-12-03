@@ -9,6 +9,9 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { ImageSliderComponent } from './image-slider/image-slider.component';
+import { GalleriaModule } from 'primeng/galleria';
+import { ButtonModule } from 'primeng/button';
+import { TagModule } from 'primeng/tag';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { ImageSliderComponent } from './image-slider/image-slider.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    GalleriaModule ,
+    ButtonModule,
+    TagModule  
   ],
   providers: [],
   bootstrap: [AppComponent]
