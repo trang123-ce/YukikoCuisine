@@ -1,39 +1,59 @@
+/* Custom styles for the footer */
 .footer {
-  background-color: #63142a;
-  color: white;
-  padding: 20px 0;
-  /* no fixed positioning — footer participates in document flow */
-  position: relative;
-  flex-shrink: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
 }
 
-h4 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+.contact-info, .location {
+    color: #ddd; /* Light grey text color */
 }
+
+.contact-info h5, .location h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-info a, .location a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover, .location a:hover {
+    color: #fff; /* Change color when hover */
+}
+
+/* Make sure all columns are evenly spaced on mobile */
 .footer .row {
- padding: 0 20px 0 20px;
-}
-.footer .contact-info a {
-  color: inherit;
-  text-decoration: none;
-  cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.footer .contact-info a:hover {
-  text-decoration: underline;
+/* Socials, Location, Contact Sections */
+.footer .col-12 {
+    margin-bottom: 15px; /* Add margin below each section */
 }
 
-/* map link styling: look like normal text but underline on hover */
-.footer .location .map-link {
-  color: inherit;
-  text-decoration: none;
+@media (min-width: 768px) {
+    .footer .col-md-4 {
+        margin-bottom: 0; /* Remove bottom margin on medium and large screens */
+    }
 }
 
-.footer .location .map-link:hover {
-  text-decoration: underline;
+/* Footer bottom section */
+.footer .small {
+    font-size: 0.8rem;
 }
 
-a {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 12px;
+/* Adjust margins for mobile screens */
+@media (max-width: 576px) {
+    .footer {
+        padding: 20px 10px;
+    }
+
+    .footer .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }

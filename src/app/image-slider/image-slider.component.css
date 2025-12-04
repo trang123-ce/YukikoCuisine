@@ -1,10 +1,19 @@
-/* Ẩn nút prev/next của PrimeNG Carousel (dùng selector mạnh hơn) */
-:host ::ng-deep .p-carousel-prev,
-:host ::ng-deep .p-carousel-next {
-  display: none !important;
+:host ::ng-deep .p-galleria-item-wrapper {
+    position: relative;
 }
 
-/* Ẩn luôn nút chỉ số (dot) nếu muốn */
-:host ::ng-deep .p-carousel-indicators {
-  display: none !important;
+:host ::ng-deep .p-galleria-caption {
+    position: absolute !important;
+    top: 70% !important;
+    left: 30% !important;
+    transform: translate(-50%, -50%) !important;
+    width: auto;
+    min-width: 40%;
+    min-height: unset;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    padding: 0;
 }

@@ -1,28 +1,29 @@
 <input type="hidden" #selection>
 <app-image-slider></app-image-slider>
-<div class="card-container">
-  <div class="food-type" (click)="selection.value = 'compobnent'" tabindex="0">
-    <img width="60" src="https://i.icanvas.com/DAY37?d=2&sh=s&t=1758931946" (click)="selection.value = 'compobnent'">
+<div class="container">
+  <div class="page menu-page">
+    <h1>Menu</h1>
+    <p>Our delicious selections will be listed here.</p>
   </div>
 
-  <button class="card card-small" (click)="selection.value = 'material'" tabindex="0">
-    <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-      <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
-    </svg>
-    <span>Angular Material</span>
-  </button>
+  <div class="row">
+    <div class="food-type col-12 col-sm-6 col-md-3 " (click)="selection.value = 'compobnent'" tabindex="0">
+      <img class="food-image" src="https://i.icanvas.com/DAY37?d=2&sh=s&t=1758931946"
+        (click)="selection.value = 'compobnent'">
+    </div>
+    <div class="food-type col-12 col-sm-6 col-md-3 " (click)="selection.value = 'compobnent'" tabindex="0">
+      <img class="food-image" src="https://i.icanvas.com/DAY37?d=2&sh=s&t=1758931946"
+        (click)="selection.value = 'compobnent'">
+    </div>
+    <div class="food-type col-12 col-sm-6 col-md-3 " (click)="selection.value = 'compobnent'" tabindex="0">
+      <img class="food-image" src="https://i.icanvas.com/DAY37?d=2&sh=s&t=1758931946"
+        (click)="selection.value = 'compobnent'">
+    </div>
+    <div class="food-type col-12 col-sm-6 col-md-3 " (click)="selection.value = 'compobnent'" tabindex="0">
+      <img class="food-image" src="https://i.icanvas.com/DAY37?d=2&sh=s&t=1758931946"
+        (click)="selection.value = 'compobnent'">
+    </div>
+  </div>
 
-  <button class="card card-small" (click)="selection.value = 'pwa'" tabindex="0">
-    <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-      <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
-    </svg>
-    <span>Add PWA Support</span>
-  </button>
 
-  <button class="card card-small" (click)="selection.value = 'dependency'" tabindex="0">
-    <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-      <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
-    </svg>
-    <span>Add Dependency</span>
-  </button>
 </div>

@@ -8,24 +8,19 @@ import { Component } from '@angular/core';
 export class ImageSliderComponent {
 images = [
   {
-    name: 'Product 1',
-    itemImageSrc : 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80',
-    thumbnailImageSrc: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=100&q=80'
+    name: '10 Essential Seattle Restaurants in Seattle 2018',
+    sub: 'Seattle Met',
+    itemImageSrc : 'https://images.pexels.com/photos/20701096/pexels-photo-20701096/free-photo-of-mon-an.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1200'
   },
   {
-    name: 'Product 2',
-    itemImageSrc : 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80',
-    thumbnailImageSrc: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=100&q=80'
+    name: 'Best Phở 2023',
+    sub: 'Eater Seattle',
+    itemImageSrc : 'https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1200'
   },
   {
-    name: 'Product 3',
-    itemImageSrc : 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80',
-    thumbnailImageSrc: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=100&q=80' 
-  },
-  {
-    name: 'Product 4',
-    itemImageSrc : 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80',
-    thumbnailImageSrc: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=100&q=80'   
+    name: 'The 38 Essential Seattle Restaurants',
+    sub: 'Thrillist',
+    itemImageSrc : 'https://images.pexels.com/photos/1213710/pexels-photo-1213710.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1200'
   }
 ];
 
