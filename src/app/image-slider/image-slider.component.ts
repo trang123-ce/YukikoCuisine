@@ -41,16 +41,4 @@ images = [
       numScroll: 1
     }
   ];
-  getSeverity(status: string): string {
-    switch (status) {
-      case 'In Stock':
-        return 'success';  // Màu xanh lá
-      case 'Out of Stock':
-        return 'danger';   // Màu đỏ
-      case 'Low Stock':
-        return 'warning';  // Màu vàng
-      default:
-        return 'info';     // Màu xanh dương
-    }
-  }
 }

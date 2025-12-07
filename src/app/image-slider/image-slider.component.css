@@ -1,11 +1,13 @@
 :host ::ng-deep .p-galleria-item-wrapper {
     position: relative;
+      top:  55px !important;
+      right: 1% !important;
 }
 
 :host ::ng-deep .p-galleria-caption {
     position: absolute !important;
     top: 70% !important;
-    left: 30% !important;
+    left: 40% !important;
     transform: translate(-50%, -50%) !important;
     width: auto;
     min-width: 40%;
