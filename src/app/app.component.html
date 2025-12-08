@@ -1,6 +1,6 @@
 <!-- Banner -->
 <div class="toolbar" role="banner">
-  <span class="brand">Yukiko Cuisine</span>
+  <span class="brand" [routerLink]="['/home']">Yukiko Cuisine</span>
   <!-- <nav aria-label="Main navigation">
   
     <a routerLink="/menu" routerLinkActive="active">Menu</a>
@@ -20,10 +20,14 @@
       </ul>
     </div>
   </nav> -->
+
 </div>
+
+
+
+
 <router-outlet></router-outlet>
 
 <!-- Footer -->
 <app-footer>
 </app-footer>
-

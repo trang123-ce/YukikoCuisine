@@ -1,35 +1,48 @@
 <input type="hidden" #selection>
-<!-- <app-image-slider></app-image-slider> -->
+<app-image-slider></app-image-slider>
 <div class="container">
   <div class="page menu-page">
-    <h1>Menu</h1>
+    <h1>MENU</h1>
     <p>Our delicious selections will be listed here.</p>
+    <p> * Eating raw of undercooked poultry, eggs. shellfish, seafood & meats may contribute to food-borne illness.</p>
   </div>
 
   <div class="row">
-    <div class="food-type col-12 col-sm-6 col-md-3 " (click)="selection.value = 'compobnent'" tabindex="0">
+    <div class="food-type col-12 col-sm-6 col-md-3 " [routerLink]="['/menu', 'Appetizer']" tabindex="0">
       <img class="food-image"
-        src="https://images.pexels.com/photos/1199958/pexels-photo-1199958.jpeg?_gl=1*64ib7i*_ga*MTU2MzQ5ODc1My4xNzY1MTI1OTQ5*_ga_8JE65Q40S6*czE3NjUxMjU5NDkkbzEkZzEkdDE3NjUxMjYwNDAkajQ2JGwwJGgw"
-        (click)="goToComponent()">
-      <h5> Appetizers</h5>
+        src="https://images.pexels.com/photos/1211887/pexels-photo-1211887.jpeg?_gl=1*2ha3a4*_ga*MTU2MzQ5ODc1My4xNzY1MTI1OTQ5*_ga_8JE65Q40S6*czE3NjUxMjU5NDkkbzEkZzEkdDE3NjUxMjYzODEkajYkbDAkaDA.">
+      <h5> APPETIZER</h5>
     </div>
-    <div class="food-type col-12 col-sm-6 col-md-3 " (click)="selection.value = 'compobnent'" tabindex="0">
-      <img class="food-image"
-        src="https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?_gl=1*14pn728*_ga*MTU2MzQ5ODc1My4xNzY1MTI1OTQ5*_ga_8JE65Q40S6*czE3NjUxMjU5NDkkbzEkZzEkdDE3NjUxMjYyNDgkajM4JGwwJGgw"
-        (click)="selection.value = 'compobnent'">
+    <div class="food-type col-12 col-sm-6 col-md-3 " [routerLink]="['/menu', 'Pho']" tabindex="0">
+      <img class="food-image" src="https://static.vinwonders.com/production/pho-bo-ha-noi.jpeg">
       <h5> PHỞ - SOUP NOODLES </h5>
     </div>
-    <div class="food-type col-12 col-sm-6 col-md-3 " (click)="selection.value = 'compobnent'" tabindex="0">
-      <img class="food-image"
-        src="https://images.pexels.com/photos/1633525/pexels-photo-1633525.jpeg?_gl=1*1n2odju*_ga*MTU2MzQ5ODc1My4xNzY1MTI1OTQ5*_ga_8JE65Q40S6*czE3NjUxMjU5NDkkbzEkZzEkdDE3NjUxMjYyODIkajQkbDAkaDA."
-        (click)="selection.value = 'compobnent'">
+    <div class="food-type col-12 col-sm-6 col-md-3 " [routerLink]="['/menu', 'Vermicelli']" tabindex="0">
+      <img class="food-image" src="https://casuallypeckish.com/wp-content/uploads/2021/08/Vermicelli-stir-fry-8.jpg">
       <h5> VERMICELLI NOODLES </h5>
     </div>
-    <div class="food-type col-12 col-sm-6 col-md-3 " (click)="selection.value = 'compobnent'" tabindex="0">
-      <img class="food-image"
-        src="https://images.pexels.com/photos/1211887/pexels-photo-1211887.jpeg?_gl=1*2ha3a4*_ga*MTU2MzQ5ODc1My4xNzY1MTI1OTQ5*_ga_8JE65Q40S6*czE3NjUxMjU5NDkkbzEkZzEkdDE3NjUxMjYzODEkajYkbDAkaDA."
-        (click)="selection.value = 'compobnent'">
+    <div class="food-type col-12 col-sm-6 col-md-3 " [routerLink]="['/menu', 'Yakisoba']" tabindex="0">
+      <img class="food-image" src="https://giavichinsu.com/wp-content/uploads/2025/09/mi-Yakisoba-1.png">
       <h5> YAKISOBA NOODLES </h5>
+    </div>
+    <div class="food-type col-12 col-sm-6 col-md-3 " [routerLink]="['/menu', 'Rice']" tabindex="0">
+      <img class="food-image"
+        src="https://images.pexels.com/photos/1633525/pexels-photo-1633525.jpeg?_gl=1*1n2odju*_ga*MTU2MzQ5ODc1My4xNzY1MTI1OTQ5*_ga_8JE65Q40S6*czE3NjUxMjU5NDkkbzEkZzEkdDE3NjUxMjYyODIkajQkbDAkaDA.">
+      <h5> RICE PLATE & BÁNH MÌ </h5>
+    </div>
+    <div class="food-type col-12 col-sm-6 col-md-3 " [routerLink]="['/menu', 'WifeFavorite']" tabindex="0">
+      <img class="food-image"
+        src="https://aeonmall-review-rikkei.cdn.vccloud.vn/website/21/articles/May2025/tyyWy4CYVfjhWxkMG2Rx.jpg">
+      <h5> MY WIFE'S FAVORITE </h5>
+    </div>
+    <div class="food-type col-12 col-sm-6 col-md-3 " [routerLink]="['/menu', 'KidsMeal']" tabindex="0">
+      <img class="food-image" src="https://www.licious.in/blog/wp-content/uploads/2020/12/Popcorn-Chicken.jpg">
+      <h5> KID'S MEAL </h5>
+    </div>
+    <div class="food-type col-12 col-sm-6 col-md-3 " [routerLink]="['/menu', 'Drinks']" tabindex="0">
+      <img class="food-image"
+        src="https://hips.hearstapps.com/hmg-prod/images/refreshing-summer-drink-pomegranate-thyme-spritz-667f2085cfd79.jpg?crop=0.668xw:1.00xh;0.294xw,0">
+      <h5> DRINK </h5>
     </div>
   </div>
 </div>

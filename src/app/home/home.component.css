@@ -3,7 +3,8 @@
   display: block;
   background-color: #1f2730;
   color: #ffffff;
-  padding: 24px;
+  padding: 80px 0 0 0;
+  /* Add top padding for fixed header, remove side padding */
   min-height: calc(100vh - 60px);
 }
 
@@ -13,7 +14,10 @@
 }
 
 .container {
-  margin-top: 120px;
+  margin-top: 40px;
+  /* Reduced from 120px since we have host padding now, just space between slider and text */
+  padding: 0 24px;
+  /* Move original host padding here */
 }
 
 .food-type {
@@ -57,6 +61,5 @@
 @media (max-width: 768px) {
   :host ::ng-deep .p-galleria-item-wrapper img {
     height: 400px;
-    margin-right: 9%;
   }
 }

@@ -43,7 +43,5 @@ export class HomeComponent {
       numScroll: 1
     }
   ];
-  goToComponent() {
-    this.router.navigate(['/menu']);
-  }
+
 }
