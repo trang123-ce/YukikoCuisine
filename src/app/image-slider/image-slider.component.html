@@ -5,10 +5,12 @@
     </ng-template>
     <ng-template pTemplate="caption" let-item>
         <div class="galleria-caption-center">
-            <h3> {{ item.name }} </h3>
-            <p> {{ item.sub }} </p> <br>
-            <a href="https://www.momo.vn/" target="_blank" class="btn btn-outline-danger active" role="button"
-                aria-pressed="true"> ORDER TAKEOUT ON TOAST</a>
+            <div class="d-grid gap-2">
+                <a href="https://www.momo.vn/" target="_blank" class="btn btn-outline-danger mb-2 btn-lg active"
+                    role="button" aria-pressed="true"> ORDER TAKEOUT ON DOORDASH</a>
+                <a href="https://www.momo.vn/" target="_blank" class="btn btn-outline-danger  btn-lg active"
+                    role="button" aria-pressed="true"> ORDER TAKEOUT ON UBER EATS</a>
+            </div>
         </div>
     </ng-template>
 </p-galleria>

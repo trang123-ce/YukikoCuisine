@@ -1,12 +1,20 @@
 /* Component host background */
 :host {
   display: block;
-  background-color: #1f2730;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #562250;
   padding: 24px;
   min-height: calc(100vh - 60px);
 }
 
+.title {
+    font-family:  'Lobster', cursive;
+}
+.money {
+  font-weight: bold;
+  font-size: small;
+  color: #0399a7;
+}
 
 /* keep cards readable on dark background */
 :host .card {
@@ -18,7 +26,7 @@
 }
 
 .food-type {
-  text-align: center;
+  text-align: left;
   margin-bottom: 15px;
   /* Thêm khoảng cách dưới mỗi image */
 }
