@@ -14,7 +14,7 @@
 }
 
 .page {
-  font-family:  'Lobster', cursive;
+  font-family: 'Lobster', cursive;
 }
 
 .container {
@@ -60,6 +60,10 @@
   height: 350px;
   object-fit: cover;
   display: block;
+}
+
+h5 {
+  margin-top: 15px;
 }
 
 @media (max-width: 768px) {

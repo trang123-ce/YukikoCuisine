@@ -8,8 +8,9 @@
 }
 
 .title {
-    font-family:  'Lobster', cursive;
+  font-family: 'Lobster', cursive;
 }
+
 .money {
   font-weight: bold;
   font-size: small;
@@ -61,4 +62,10 @@
   height: 350px;
   object-fit: cover;
   display: block;
+}
+
+::ng-deep .addon-price {
+  color: #0399a7;
+  font-weight: bold;
+  font-size: smaller;
 }

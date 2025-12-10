@@ -52,4 +52,11 @@ export class MenuComponent implements OnInit {
       }
     });
   }
+
+  formatAddon(addon: string | undefined): string {
+    if (!addon) return '';
+    // Regex to match +$X.XX patterns
+    return addon.replace(/(\+\$\d+\.\d{2})/g, '<span class="addon-price">$1</span>');
+  }
+
 }

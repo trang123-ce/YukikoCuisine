@@ -38,6 +38,7 @@ p {
   background-color: #c93a5a;
   color: white;
   font-weight: 600;
+  justify-content: center;
 }
 
 .toolbar span {
@@ -45,7 +46,7 @@ p {
   color: #57224f;
   font-family: 'Itim', cursive;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 45px;
   cursor: pointer;
 }
 
@@ -86,15 +87,15 @@ p {
     margin-left: 72px;
   }
 
-  svg#rocket-smoke {
-    right: 120px;
-    transform: rotate(-5deg);
+  .toolbar span {
+    margin: 0 16px;
+    color: #57224f;
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
   }
 }
 
-@media screen and (max-width: 575px) {
-  svg#rocket-smoke {
-    display: none;
-    visibility: hidden;
-  }
-}
+@media screen and (max-width: 575px) {}

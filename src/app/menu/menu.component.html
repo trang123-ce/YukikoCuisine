@@ -4,13 +4,15 @@
         <p *ngIf="menuData.overview">{{menuData.overview}}</p>
     </div>
     <div class="row">
-        <div class="food-type col-12 col-sm-6 col-md-3 " *ngFor="let item of menuData.FoodDetail" tabindex="0">
+        <div class="food-type col-6 col-sm-6 col-md-3 " *ngFor="let item of menuData.FoodDetail" tabindex="0">
             <img class="food-image" [src]="item.image" *ngIf="item.image">
             <h5 class="fw-bold" *ngIf="item.name"> {{item.name}} <span class="money"> {{item.price}}</span></h5>
             <p *ngIf="item.description"> {{item.description}} </p>
-            <p *ngIf="item.choice" class="fw-bold"> <strong>Choice:</strong> {{item.choice}} </p>
-            <p *ngIf="item.addon" class="fw-bold"> <strong>Addon:</strong> {{item.addon}} </p>
+            <p *ngIf="item.choice" class="fw-bold"> <strong> Choice:</strong> {{item.choice}} </p>
+            <p *ngIf="item.addon" class="fw-bold"> <strong> Addon: </strong> <span
+                    [innerHTML]="formatAddon(item.addon)"></span> </p>
         </div>
     </div>
-     <p class="fw-bold" *ngIf="menuData.title == 'PHỞ - SOUP NOODLES'"> * Eating raw of undercooked poultry, eggs. shellfish, seafood & meats may contribute to food-borne illness.</p>
+    <p class="fw-bold" *ngIf="menuData.title == 'PHỞ - SOUP NOODLES'"> * Eating raw of undercooked poultry, eggs.
+        shellfish, seafood & meats may contribute to food-borne illness.</p>
 </div>
