@@ -169,7 +169,7 @@ export const yakisobaMenu: FoodTitle = {
     ]
 };
 export const ricePlateMenu: FoodTitle = {
-    title: "RICE PLATE",
+    title: "RICE PLATE & BÁNH MÌ",
     overview: "A variety of delicious rice plates served with your choice of protein, vegetables, and house-made sauces.",
     FoodDetail: [
         {
@@ -216,24 +216,19 @@ export const ricePlateMenu: FoodTitle = {
             price: "$15.50",
             choice: "Chicken | Beef | Shrimp | Tofu | Vegetables",
             addon: ""
-        }
-    ]
-};
-export const banhMiMenu: FoodTitle = {
-    title: "BÁNH MÌ",
-    overview: "Crispy baguettes filled with bold Vietnamese flavors, pickled carrots and daikon, cucumber, cilantro, jalapeño, crispy onions, and our signature house mayo and pate.",
-    FoodDetail: [
+        },
         {
-            id: 1,
+            id: 6,
             name: "Bánh Mì",
             description: "Crispy baguettes filled with bold Vietnamese flavors, pickled carrots and daikon, cucumber, cilantro, jalapeño, crispy onions, and our signature house mayo and pate.",
-            image: "banh-mi.jpg",  // Example image path
+            image: "banh-mi.jpg",
             price: "$8.99",
             choice: "Grilled Pork | Grilled Chicken | Ham | Tofu",
-            addon: "Extra meat: +$2.99 | Fried egg: +$1.99"
+            addon: ""
         }
     ]
 };
+
 export const wifeFavoriteMenu: FoodTitle = {
     title: "MY WIFE'S FAVORITE",
     overview: "A collection of my wife's favorite dishes, packed with flavor and heartwarming goodness.",

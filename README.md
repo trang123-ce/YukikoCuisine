@@ -1,6 +1,12 @@
 # YukikoCuisine
+#Prerequisite
+Install:
+Step 1. Install npm 
+Step 2: Node.js version 22.21.1
+Step 3: Angular version 16.2.12
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.12.
+
 
 ## Development server
 
