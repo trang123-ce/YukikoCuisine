@@ -38,7 +38,6 @@ p {
   background-color: #c93a5a;
   color: white;
   font-weight: 600;
-  justify-content: center;
 }
 
 .toolbar span {
@@ -98,4 +97,44 @@ p {
   }
 }
 
-@media screen and (max-width: 575px) {}
+.brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  /* Ensure it doesn't wrap weirdly unless necessary */
+  max-width: 70%;
+  /* Prevent overlap with logo on small screens if possible */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+/* Default logo size */
+.logo-img {
+  height: 60px;
+}
+
+@media screen and (max-width: 767px) {
+
+  /* ... existing styles ... */
+  .toolbar span {
+    /* reuse existing logic if needed, but .brand overrides usually work */
+    font-size: 20px;
+    /* Adjust font size for mobile if needed */
+  }
+
+  .logo-img {
+    height: 30px;
+    /* Smaller logo on mobile */
+  }
+
+  .brand {
+    white-space: normal;
+    /* Allow wrapping */
+    line-height: 1.2;
+    text-align: center;
+    /* Ensure 2 lines are centered relative to each other */
+  }
+}
