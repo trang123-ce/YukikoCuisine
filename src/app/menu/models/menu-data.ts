@@ -57,21 +57,21 @@ export const phoMenu: FoodTitle = {
     FoodDetail: [
         {
             id: 1,
-            name: "🌟 Beef Phở",
+            name: "*Beef Phở",
             description: "Select up to 3 cuts of your choice: Steak, Brisket, Meatball, Tendon, Tripe.",
             image: "beef-pho.jpg",  // Assume you have an image file for this
             price: "$14.50 (Small) / $15.50 (Large)",
-            choice: "Steak, Brisket, Meatball, Tendon, Tripe",
-            addon: "Extra meat: +$2.99 | Extra Noodle: +$1.99"
+            choice: "",
+            addon: ""
         },
         {
             id: 2,
-            name: "🌟 Combination Phở",
+            name: "*Combination Phở",
             description: "A special combination of steak, brisket, meatballs, tendon, and tripe.",
             image: "combination-pho.jpg",
             price: "$15.50 (Small) / $16.50 (Large)",
-            choice: "Steak, Brisket, Meatball, Tendon, Tripe",
-            addon: "Extra meat: +$2.99 | Extra Noodle: +$1.99"
+            choice: "",
+            addon: ""
         },
         {
             id: 3,
@@ -80,7 +80,7 @@ export const phoMenu: FoodTitle = {
             image: "pho-tai-lan.jpg",
             price: "$14.50 (Small) / $15.50 (Large)",
             choice: "",
-            addon: "Extra meat: +$2.99 | Extra Noodle: +$1.99"
+            addon: ""
         },
         {
             id: 4,
@@ -89,7 +89,7 @@ export const phoMenu: FoodTitle = {
             image: "chicken-pho.jpg",
             price: "$14.50 (Small) / $15.50 (Large)",
             choice: "",
-            addon: "Extra meat: +$2.99 | Extra Noodle: +$1.99"
+            addon: ""
         },
         {
             id: 5,
@@ -98,16 +98,16 @@ export const phoMenu: FoodTitle = {
             image: "tofu-veggie-pho.jpg",
             price: "$14.50 (Small) / $15.50 (Large)",
             choice: "",
-            addon: "Extra meat: +$2.99 | Extra Noodle: +$1.99"
+            addon: ""
         },
         {
             id: 6,
             name: "Seafood Phở",
-            description: "A fragrant, ocean-inspired twist on classic pho—fresh rice noodles in a delicate chicken broth, topped with shrimp, squid, crab sticks, and fish balls.",
+            description: "A fragrant, ocean-inspired twist on classic pho - fresh rice noodles in a delicate chicken broth, topped with shrimp, squid, crab sticks, and fish balls.",
             image: "seafood-pho.jpg",
             price: "$15.50 (Small) / $16.50 (Large)",
             choice: "",
-            addon: "Extra meat: +$2.99 | Extra Noodle: +$1.99"
+            addon: ""
         }
     ]
 };
@@ -122,7 +122,7 @@ export const vermicelliMenu: FoodTitle = {
             image: "grilled-pork.jpg",  // Example image file path
             price: "$15.50",
             choice: "",
-            addon: "Extra meat: +$3.99 | Fried egg: +$1.99"
+            addon: ""
         },
         {
             id: 2,
@@ -131,7 +131,7 @@ export const vermicelliMenu: FoodTitle = {
             image: "grilled-specialty-pork-sausage.jpg",
             price: "$15.50",
             choice: "",
-            addon: "Extra meat: +$3.99 | Fried egg: +$1.99"
+            addon: ""
         },
         {
             id: 3,
@@ -140,7 +140,7 @@ export const vermicelliMenu: FoodTitle = {
             image: "grilled-chicken.jpg",
             price: "$15.50",
             choice: "",
-            addon: "Extra meat: +$3.99 | Fried egg: +$1.99"
+            addon: ""
         },
         {
             id: 4,
@@ -149,7 +149,7 @@ export const vermicelliMenu: FoodTitle = {
             image: "grilled-prawn.jpg",
             price: "$15.50",
             choice: "",
-            addon: "Extra meat: +$3.99 | Fried egg: +$1.99"
+            addon: ""
         }
     ]
 };
@@ -196,7 +196,7 @@ export const ricePlateMenu: FoodTitle = {
             description: "Juicy, marinated pork chop grilled to perfection, served over steamed jasmine rice with fresh vegetables (lettuce & cucumbers), pickled carrots and a fried egg. Served with house-made fish sauce.",
             image: "grilled-pork-chop.jpg",
             price: "$15.99",
-            choice: "None",
+            choice: "",
             addon: ""
         },
         {
@@ -337,7 +337,7 @@ export const drinksMenu: FoodTitle = {
         },
         {
             id: 2,
-            name: "Soda (Coke, Diet Coke, Sprite)",
+            name: "Soda",
             description: "",
             image: "soda.jpg",
             price: "$2.50",

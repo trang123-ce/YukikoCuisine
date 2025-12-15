@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 14px;
   color: #333;
   box-sizing: border-box;
@@ -44,7 +43,6 @@ p {
   margin: 0 16px;
   /* color: #57224f; */
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 45px;
   cursor: pointer;
@@ -90,7 +88,6 @@ p {
   .toolbar span {
     margin: 0 16px;
     color: #57224f;
-    font-family: 'Itim', cursive;
     font-weight: bold;
     font-size: 25px;
     cursor: pointer;
@@ -130,7 +127,7 @@ p {
 }
 
 .logo-img {
-  height: 120px;
+  height: 130px;
   width: auto;
   object-fit: contain;
 }
