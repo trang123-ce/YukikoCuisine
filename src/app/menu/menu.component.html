@@ -1,5 +1,7 @@
 <div class="container" *ngIf="menuData">
-    <div class="return" [routerLink]="['home']"> </div>
+    <div class="text-primary text-decoration-none mb-2" [routerLink]="['home']"> 
+        <i class="fa-solid fa-arrow-left"></i> <span> Return home </span>
+    </div>
     <div class="menu-page">
         <h1 class="title fw-bold"> {{menuData.title}} </h1>
         <p *ngIf="menuData.overview">{{menuData.overview}}</p>
