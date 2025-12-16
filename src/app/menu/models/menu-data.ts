@@ -176,7 +176,7 @@ export const ricePlateMenu: FoodTitle = {
             id: 1,
             name: "Fried Rice",
             description: "Golden, fluffy rice stir-fried with your choice of protein, eggs, vegetables (carrots and peas), and finished with a touch of scallion and soy-based seasoning.",
-            image: "fried-rice.jpg",  // Example image path
+            image: "assets/Rice_plate_banh_mi/Chicken Fried rice.png",  // Example image path
             price: "$15.50",
             choice: "Chicken, Shrimp, Tofu | Combo (Chicken & Shrimp: +$1.00)",
             addon: ""
@@ -185,7 +185,7 @@ export const ricePlateMenu: FoodTitle = {
             id: 2,
             name: "Chicken Teriyaki",
             description: "Juicy grilled chicken glazed with our teriyaki sauce, served with steamed vegetables, salad dressing, and jasmine rice.",
-            image: "chicken-teriyaki.jpg",
+            image: "assets/Rice_plate_banh_mi/chicken teriyaki.png",
             price: "$14.50",
             choice: "",
             addon: ""
@@ -194,7 +194,7 @@ export const ricePlateMenu: FoodTitle = {
             id: 3,
             name: "Grilled Pork Chop",
             description: "Juicy, marinated pork chop grilled to perfection, served over steamed jasmine rice with fresh vegetables (lettuce & cucumbers), pickled carrots and a fried egg. Served with house-made fish sauce.",
-            image: "grilled-pork-chop.jpg",
+            image: "assets/Rice_plate_banh_mi/grilled pork chop.jpg",
             price: "$15.99",
             choice: "",
             addon: ""
@@ -203,7 +203,7 @@ export const ricePlateMenu: FoodTitle = {
             id: 4,
             name: "Grilled Lemongrass Chicken",
             description: "Juicy chicken marinated in fragrant lemongrass, garlic, and a touch of honey, grilled to perfection and served over steamed jasmine rice with fresh vegetables, pickled carrots and daikon. Served with house-made fish sauce.",
-            image: "grilled-lemongrass-chicken.jpg",
+            image: "assets/Rice_plate_banh_mi/grilled lemon grass chicken.png",
             price: "$15.50",
             choice: "",
             addon: ""
@@ -212,7 +212,7 @@ export const ricePlateMenu: FoodTitle = {
             id: 5,
             name: "Stir-Fried Veggies",
             description: "A colorful medley of seasonal vegetables wok-tossed with onions and our signature house sauce. Served with steamed jasmine rice.",
-            image: "stir-fried-veggies.jpg",
+            image: "assets/Rice_plate_banh_mi/stir-fried veggies.png",
             price: "$15.50",
             choice: "Chicken | Beef | Shrimp | Tofu | Vegetables",
             addon: ""
@@ -221,7 +221,7 @@ export const ricePlateMenu: FoodTitle = {
             id: 6,
             name: "Bánh Mì",
             description: "Crispy baguettes filled with bold Vietnamese flavors, pickled carrots and daikon, cucumber, cilantro, jalapeño, crispy onions, and our signature house mayo and pate.",
-            image: "banh-mi.jpg",
+            image: "assets/Rice_plate_banh_mi/banh_mi.png",
             price: "$8.99",
             choice: "Grilled Pork | Grilled Chicken | Ham | Tofu",
             addon: ""
