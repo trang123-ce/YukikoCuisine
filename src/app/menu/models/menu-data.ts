@@ -58,7 +58,7 @@ export const phoMenu: FoodTitle = {
         {
             id: 1,
             name: "*Beef Phở",
-            description: "Select up to 3 cuts of your choice: Steak, Brisket, Meatball, Tendon, Tripe.",
+            description: "Select up to 3 cuts of your choice: *Steak, Brisket, Meatball, Tendon, Tripe.",
             image: "beef-pho.jpg",  // Assume you have an image file for this
             price: "$14.50 (Small) / $15.50 (Large)",
             choice: "",
@@ -67,7 +67,7 @@ export const phoMenu: FoodTitle = {
         {
             id: 2,
             name: "*Combination Phở",
-            description: "A special combination of steak, brisket, meatballs, tendon, and tripe.",
+            description: "A special combination of *steak, brisket, meatballs, tendon, and tripe.",
             image: "combination-pho.jpg",
             price: "$15.50 (Small) / $16.50 (Large)",
             choice: "",
