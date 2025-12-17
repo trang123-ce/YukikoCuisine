@@ -9,7 +9,7 @@ export const appetizers: FoodTitle = {
             name: "Fresh Spring Roll (2pcs)",
             description: "Rice paper rolls filled with noodles, lettuce, and your choice of protein. Served with peanut dipping sauce.",
             price: "$4.99",
-            choice: "Shrimp & Pork | Specialty Pork Sausage | Tofu",
+            choice: ["- Shrimp & Pork", "- Specialty Pork Sausage", "- Tofu"],
             addon: "",
             image: "assets/Appetizer/pork_sausage_spring_roll.jpg"
         },
@@ -18,7 +18,7 @@ export const appetizers: FoodTitle = {
             name: "Fried Egg Rolls (2pcs)",
             description: "Golden, crispy rolls filled with taro, carrots, glass noodles, and your choice of protein, wrapped in egg roll wrappers and fried to perfection. Served with sweet & sour sauce.",
             price: "$5.50",
-            choice: "Pork | Tofu",
+            choice: ["- Pork", "- Tofu"],
             addon: "",
             image: "assets/Appetizer/fried_egg_roll.jpg"
         },
@@ -159,11 +159,38 @@ export const yakisobaMenu: FoodTitle = {
     FoodDetail: [
         {
             id: 1,
-            name: "Yakisoba Noodles",
+            name: "Chicken Yakisoba",
+            description: "",
+            image: "assets/Yakisoba/chicken yakisoba.png",
+            price: "$15.50",
+            choice: "",
+            addon: ""
+        },
+        {
+            id: 2,
+            name: "Shrimp Yakisoba",
             description: "",
             image: "assets/Yakisoba/shrimp yakisoba.png",
             price: "$15.50",
-            choice: "Chicken | Beef | Shrimp | Tofu",
+            choice: "",
+            addon: ""
+        },
+        {
+            id: 3,
+            name: "Beef Yakisoba",
+            description: "",
+            image: "assets/Yakisoba/beef yakisoba.png",
+            price: "$15.50",
+            choice: "",
+            addon: ""
+        },
+        {
+            id: 4,
+            name: "Tofu Yakisoba",
+            description: "",
+            image: "assets/Yakisoba/tofu yakisoba.png",
+            price: "$15.50",
+            choice: "",
             addon: ""
         }
     ]
@@ -178,7 +205,10 @@ export const ricePlateMenu: FoodTitle = {
             description: "Golden, fluffy rice stir-fried with your choice of protein, eggs, vegetables (carrots and peas), and finished with a touch of scallion and soy-based seasoning.",
             image: "assets/Rice_plate_banh_mi/Shrimp Fried Rice.png",  // Example image path
             price: "$15.50",
-            choice: "Chicken, Shrimp, Tofu | Combo (Chicken & Shrimp: +$1.00)",
+            choice: [
+                "- Chicken, Shrimp, Tofu",
+                "- Combo (Chicken & Shrimp: +$1.00)"
+            ],
             addon: ""
         },
         {
@@ -214,7 +244,7 @@ export const ricePlateMenu: FoodTitle = {
             description: "A colorful medley of seasonal vegetables wok-tossed with onions and our signature house sauce. Served with steamed jasmine rice.",
             image: "assets/Rice_plate_banh_mi/stir-fried veggies.png",
             price: "$15.50",
-            choice: "Chicken | Beef | Shrimp | Tofu | Vegetables",
+            choice: ["- Chicken", "- Beef", "- Shrimp", "- Tofu", "- Vegetables"],
             addon: ""
         },
         {
@@ -223,7 +253,7 @@ export const ricePlateMenu: FoodTitle = {
             description: "Crispy baguettes filled with bold Vietnamese flavors, pickled carrots and daikon, cucumber, cilantro, jalapeño, crispy onions, and our signature house mayo and pate.",
             image: "assets/Rice_plate_banh_mi/banh_mi.png",
             price: "$8.99",
-            choice: "Grilled Pork | Grilled Chicken | Ham | Tofu",
+            choice: ["- Grilled Pork", "- Grilled Chicken", "- Ham", "- Tofu"],
             addon: ""
         }
     ]
@@ -257,7 +287,7 @@ export const wifeFavoriteMenu: FoodTitle = {
             description: "Tender beef slow-simmered with lemongrass, star anise, and aromatic spices in a rich, flavorful broth.",
             image: "assets/My_wife_favorite/beef_stew.png",
             price: "$16.50",
-            choice: "Served with: Pho noodles | Ramen noodles | Baguette | Rice",
+            choice: "- Served with: Pho noodles | Ramen noodles | Baguette | Rice",
             addon: ""
         },
         {
@@ -332,7 +362,7 @@ export const drinksMenu: FoodTitle = {
             description: "",
             image: "soda.jpg",
             price: "$2.50",
-            choice: "Coke | Diet Coke | Sprite",
+            choice: ["- Coke", "- Diet Coke", "- Sprite"],
             addon: ""
         },
         {
@@ -341,7 +371,7 @@ export const drinksMenu: FoodTitle = {
             description: "",
             image: "hot-tea.jpg",
             price: "$2.50",
-            choice: "Green Tea | Lemon Ginger Tea (Caffeine-free)",
+            choice: ["- Green Tea", "- Lemon Ginger Tea (Caffeine-free)"],
             addon: ""
         }
     ]

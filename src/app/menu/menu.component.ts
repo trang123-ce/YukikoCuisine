@@ -59,4 +59,7 @@ export class MenuComponent implements OnInit {
     return addon.replace(/(\+\$\d+\.\d{2})/g, '<span class="addon-price">$1</span>');
   }
 
+  isArray(val: any): boolean {
+    return Array.isArray(val);
+  }
 }

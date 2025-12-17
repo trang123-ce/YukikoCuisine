@@ -4,6 +4,6 @@ export interface FoodDetail {
     description: string;
     image: string;
     price: string;
-    choice: string;
+    choice: string | string[];
     addon: string;
 }
