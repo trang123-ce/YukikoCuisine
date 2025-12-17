@@ -11,7 +11,7 @@ export const appetizers: FoodTitle = {
             price: "$4.99",
             choice: "Shrimp & Pork | Specialty Pork Sausage | Tofu",
             addon: "",
-            image: "https://tb-static.uber.com/prod/image-proc/processed_images/72c81fbc64ffadca47e3d5dde9dd2528/bc9c318a9c96996e2d990faf2b0c65f6.jpeg"
+            image: "assets/Appetizer/pork_sausage_spring_roll.jpg"
         },
         {
             id: 2,
@@ -20,7 +20,7 @@ export const appetizers: FoodTitle = {
             price: "$5.50",
             choice: "Pork | Tofu",
             addon: "",
-            image: "https://www.savoryspiceshop.com/cdn/shop/articles/VeggEggRolls.jpg?v=1760566841"
+            image: "assets/Appetizer/fried_egg_roll.jpg"
         },
         {
             id: 3,
@@ -29,7 +29,7 @@ export const appetizers: FoodTitle = {
             price: "$7.99",
             choice: "",
             addon: "",
-            image: "https://www.bakingbeauty.net/wp-content/uploads/2016/04/crab-rangoon-e1460941385970.jpg"
+            image: "assets/Appetizer/cream_cheese.png"
         },
         {
             id: 4,
@@ -38,7 +38,7 @@ export const appetizers: FoodTitle = {
             price: "$8.50",
             choice: "",
             addon: "",
-            image: "https://d1w7312wesee68.cloudfront.net/EcXi5JRvjvvNjWDTyMBFGqfScuIg7ZFclBzIm7qKaEk/resize:fit:720:720/plain/s3://toasttab/restaurants/restaurant-230405000000000000/menu/items/7/item-1200000000886026167_1726096134.jpg"
+            image: "assets/Appetizer/gyoza.png"
         },
         {
             id: 5,
@@ -47,7 +47,7 @@ export const appetizers: FoodTitle = {
             price: "$11.99",
             choice: "",
             addon: "",
-            image: "https://bakerbynature.com/wp-content/uploads/2015/02/Sweet-and-Spicy-Sriracha-Chicken-Wings-0-6.jpg"
+            image: "assets/Appetizer/chicken_wings.png"
         }
     ]
 };
@@ -68,7 +68,7 @@ export const phoMenu: FoodTitle = {
             id: 2,
             name: "*Combination Phở",
             description: "A special combination of *steak, brisket, meatballs, tendon, and tripe.",
-            image: "combination-pho.jpg",
+            image: "assets/Pho/combination_pho.png",
             price: "$15.50 (Small) / $16.50 (Large)",
             choice: "",
             addon: ""
@@ -77,7 +77,7 @@ export const phoMenu: FoodTitle = {
             id: 3,
             name: "Phở Tái Lăn",
             description: "Lightly seared beef with garlic and onions served in rich beef broth over rice noodles (Hanoi-style pho).",
-            image: "pho-tai-lan.jpg",
+            image: "assets/Pho/pho_tai_lan.png",
             price: "$14.50 (Small) / $15.50 (Large)",
             choice: "",
             addon: ""
@@ -86,7 +86,7 @@ export const phoMenu: FoodTitle = {
             id: 4,
             name: "Chicken Phở",
             description: "Aromatic chicken broth with shredded chicken, rice noodles, and fresh herbs.",
-            image: "chicken-pho.jpg",
+            image: "assets/Pho/Chicken_Pho.jpg",
             price: "$14.50 (Small) / $15.50 (Large)",
             choice: "",
             addon: ""
@@ -95,7 +95,7 @@ export const phoMenu: FoodTitle = {
             id: 5,
             name: "Tofu Veggie Phở",
             description: "A delicate vegetable broth with rice noodles, crispy tofu, and fresh vegetables (broccoli, bok choy, carrots, cabbage).",
-            image: "tofu-veggie-pho.jpg",
+            image: "assets/Pho/Tofu_Pho.jpg",
             price: "$14.50 (Small) / $15.50 (Large)",
             choice: "",
             addon: ""
@@ -119,7 +119,7 @@ export const vermicelliMenu: FoodTitle = {
             id: 1,
             name: "Grilled Pork",
             description: "Pork, fried pork egg roll.",
-            image: "grilled-pork.jpg",  // Example image file path
+            image: "assets/Vermicelli_Noodles/grilled pork vermicelli noodle.png",
             price: "$15.50",
             choice: "",
             addon: ""
@@ -128,7 +128,7 @@ export const vermicelliMenu: FoodTitle = {
             id: 2,
             name: "Grilled Specialty Pork Sausage",
             description: "Specialty pork sausage, fried pork egg roll.",
-            image: "grilled-specialty-pork-sausage.jpg",
+            image: "assets/Vermicelli_Noodles/Gilled pork sausage vermicelli noodles.png",
             price: "$15.50",
             choice: "",
             addon: ""
@@ -137,7 +137,7 @@ export const vermicelliMenu: FoodTitle = {
             id: 3,
             name: "Grilled Chicken",
             description: "Chicken thigh, fried pork egg roll.",
-            image: "grilled-chicken.jpg",
+            image: "assets/Vermicelli_Noodles/Vermicelli_Grilled Chicken.jpg",
             price: "$15.50",
             choice: "",
             addon: ""
@@ -146,7 +146,7 @@ export const vermicelliMenu: FoodTitle = {
             id: 4,
             name: "Grilled Prawn",
             description: "White prawn, a fried pork egg roll.",
-            image: "grilled-prawn.jpg",
+            image: "assets/Vermicelli_Noodles/Grilled prawn vermicelli noodle.png",
             price: "$15.50",
             choice: "",
             addon: ""
@@ -161,7 +161,7 @@ export const yakisobaMenu: FoodTitle = {
             id: 1,
             name: "Yakisoba Noodles",
             description: "",
-            image: "yakisoba-noodles.jpg",
+            image: "assets/Yakisoba/shrimp yakisoba.png",
             price: "$15.50",
             choice: "Chicken | Beef | Shrimp | Tofu",
             addon: ""
@@ -176,7 +176,7 @@ export const ricePlateMenu: FoodTitle = {
             id: 1,
             name: "Fried Rice",
             description: "Golden, fluffy rice stir-fried with your choice of protein, eggs, vegetables (carrots and peas), and finished with a touch of scallion and soy-based seasoning.",
-            image: "assets/Rice_plate_banh_mi/Chicken Fried rice.png",  // Example image path
+            image: "assets/Rice_plate_banh_mi/Shrimp Fried Rice.png",  // Example image path
             price: "$15.50",
             choice: "Chicken, Shrimp, Tofu | Combo (Chicken & Shrimp: +$1.00)",
             addon: ""
@@ -237,7 +237,7 @@ export const wifeFavoriteMenu: FoodTitle = {
             id: 1,
             name: "Golden Chicken Rice",
             description: "Fragrant turmeric rice served with tender shredded chicken, fresh herbs, mint, and onions. Served with our ginger house-made fish sauce and a bowl of chicken broth.",
-            image: "golden-chicken-rice.jpg",
+            image: "assets/My_wife_favorite/Golden_chicken_rice.jpg",
             price: "$17.99",
             choice: "",
             addon: ""
@@ -246,7 +246,7 @@ export const wifeFavoriteMenu: FoodTitle = {
             id: 2,
             name: "Phở Gà Trộn",
             description: "Fresh pho noodles with tender marinated chicken, fragrant herbs, pickled vegetables, and roasted peanuts. Served with our light garlic–lime fish sauce dressing.",
-            image: "pho-ga-tron.jpg",
+            image: "assets/My_wife_favorite/pho_ga_tron.jpg",
             price: "$16.99",
             choice: "",
             addon: ""
@@ -255,7 +255,7 @@ export const wifeFavoriteMenu: FoodTitle = {
             id: 3,
             name: "Vietnamese Beef Stew (Bò Kho)",
             description: "Tender beef slow-simmered with lemongrass, star anise, and aromatic spices in a rich, flavorful broth.",
-            image: "beef-stew.jpg",
+            image: "assets/My_wife_favorite/beef_stew.png",
             price: "$16.50",
             choice: "Served with: Pho noodles | Ramen noodles | Baguette | Rice",
             addon: ""
@@ -264,7 +264,7 @@ export const wifeFavoriteMenu: FoodTitle = {
             id: 4,
             name: "Spicy Beef Noodle Soup (Bún Bò Huế)",
             description: "A bold and flavorful central Vietnamese soup made with lemongrass-infused beef broth, thick rice noodles, tender beef slices, sliced ham, and pork meatball.",
-            image: "spicy-beef-noodle-soup.jpg",
+            image: "assets/My_wife_favorite/spicy_beef_noodle_soup.png",
             price: "$16.50",
             choice: "",
             addon: ""
@@ -273,17 +273,8 @@ export const wifeFavoriteMenu: FoodTitle = {
             id: 5,
             name: "Beef Stir-Fry Vermicelli Noodles",
             description: "Tender slices of beef stir-fried with garlic and onions, served over fresh vermicelli noodles with lettuce, cucumbers, herbs, and roasted peanuts. Served with house-made fish sauce.",
-            image: "beef-stir-fry-vermicelli.jpg",
+            image: "assets/My_wife_favorite/beef_stir-fry.png",
             price: "$15.50",
-            choice: "",
-            addon: ""
-        },
-        {
-            id: 6,
-            name: "Chicken Salad",
-            description: "Shredded chicken breast tossed with crisp carrots, onions, and fragrant herbs in a tangy lime–fish sauce dressing. Topped with roasted peanuts and crispy shallots.",
-            image: "chicken-salad.jpg",
-            price: "$15.99",
             choice: "",
             addon: ""
         }
@@ -315,7 +306,7 @@ export const kidsMealMenu: FoodTitle = {
             id: 3,
             name: "Popcorn Chicken",
             description: "",
-            image: "popcorn-chicken.jpg",
+            image: "assets/Kid_meal/popcorn_chicken.png",
             price: "$7.99",
             choice: "",
             addon: ""
