@@ -12,7 +12,13 @@
             <h5 class="fw-bold" *ngIf="item.name"> {{item.name}}</h5>
             <span class="money"> {{item.price}}</span>
             <p *ngIf="item.description"> {{item.description}} </p>
-            <p *ngIf="item.choice" class="fw-bold"> <strong> Choice:</strong> {{item.choice}} </p>
+            <p *ngIf="item.choice" class="fw-bold"> <strong> Choice:</strong> </p>
+            <ng-container *ngIf="isArray(item.choice); else singleChoice">
+                <p *ngFor="let c of $any(item.choice)" class="m-0"> {{c}} </p>
+            </ng-container>
+            <ng-template #singleChoice>
+                <p> {{item.choice}} </p>
+            </ng-template>
             <p *ngIf="item.addon" class="fw-bold"> <strong> Addon: </strong> <span
                     [innerHTML]="formatAddon(item.addon)"></span> </p>
         </div>

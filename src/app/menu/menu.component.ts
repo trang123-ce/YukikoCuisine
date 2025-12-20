@@ -58,5 +58,7 @@ export class MenuComponent implements OnInit {
     // Regex to match +$X.XX patterns
     return addon.replace(/(\+\$\d+\.\d{2})/g, '<span class="addon-price">$1</span>');
   }
-
+  isArray(val: any): boolean {
+    return Array.isArray(val);
+  }
 }
