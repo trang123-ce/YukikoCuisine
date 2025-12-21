@@ -82,7 +82,7 @@ h5 {
 
 @media (max-width: 768px) {
   :host ::ng-deep .food-image {
-    height: 150px;
+    height: 200px;
   }
 }
 

@@ -6,6 +6,7 @@
   padding: 120px 0 0 0;
   /* Add top padding for fixed header, remove side padding */
   min-height: calc(100vh - 60px);
+  margin-bottom: 40px;
 }
 
 /* keep cards readable on dark background */
@@ -17,8 +18,6 @@
 .container {
   margin-top: 40px;
   /* Reduced from 120px since we have host padding now, just space between slider and text */
-  padding: 0 24px;
-  /* Move original host padding here */
 }
 
 .food-type {
@@ -53,7 +52,7 @@
 
 .food-image {
   width: 100%;
-  height: 350px;
+  height: 290px;
   display: block;
 }
 
