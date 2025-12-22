@@ -6,17 +6,38 @@ import { Component } from '@angular/core';
   styleUrls: ['./image-slider.component.css']
 })
 export class ImageSliderComponent {
-images = [
-  {
-    itemImageSrc : 'https://images.pexels.com/photos/20701096/pexels-photo-20701096/free-photo-of-mon-an.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1200'
-  },
-  {
-    itemImageSrc : 'https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1200'
-  },
-  {
-    itemImageSrc : 'https://images.pexels.com/photos/1213710/pexels-photo-1213710.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1200'
-  }
-];
+  images = [
+    {
+      itemImageSrc: 'assets/Store/1.jpg'
+    },
+    {
+      itemImageSrc: 'assets/Store/2.jpg'
+    },
+    {
+      itemImageSrc: 'assets/Store/3.jpg'
+    },
+    {
+      itemImageSrc: 'assets/Store/IMG_6855.JPG'
+    },
+    {
+      itemImageSrc: 'assets/Store/IMG_6860.JPG'
+    },
+    {
+      itemImageSrc: 'assets/Store/IMG_6864.JPG'
+    },
+    {
+      itemImageSrc: 'assets/Store/IMG_6871.JPG'
+    },
+    {
+      itemImageSrc: 'assets/Store/IMG_6879.JPG'
+    },
+    {
+      itemImageSrc: 'assets/Store/IMG_6883.JPG'
+    },
+    {
+      itemImageSrc: 'assets/Store/IMG_6891.JPG'
+    }
+  ];
 
   responsiveOptions = [
     {
