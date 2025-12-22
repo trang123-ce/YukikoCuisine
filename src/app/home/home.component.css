@@ -78,6 +78,6 @@ h5 {
   }
 
   :host ::ng-deep .food-image {
-    height: 180px;
+    height: 150px;
   }
 }
