@@ -8,7 +8,7 @@
 }
 
 .title {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Bevan', serif;
 }
 
 .money {
@@ -23,7 +23,13 @@
 }
 
 .container {
-  margin-top: 120px;
+  margin-top: 150px;
+}
+
+@media (max-width: 767px) {
+  .container {
+    margin-top: 120px;
+  }
 }
 
 .food-type {
@@ -59,7 +65,7 @@
 
 .food-image {
   width: 100%;
-  height: 350px;
+  height: 300px;
   display: block;
 }
 
@@ -82,7 +88,7 @@ h5 {
 
 @media (max-width: 768px) {
   :host ::ng-deep .food-image {
-    height: 200px;
+    height: 180px;
   }
 }
 
